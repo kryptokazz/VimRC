@@ -1,1 +1,1 @@
-# VimRC
+# nvim-init
