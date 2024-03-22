@@ -15,10 +15,18 @@ Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'glepnir/dashboard-nvim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'morhetz/gruvbox'
 
 " End plugin definitions
 call plug#end()
 
+
+set termguicolors
+colorscheme gruvbox
+set background=light
 " Emmet mapping
 imap <C-j> <Plug>(emmet-expand-abbr)
 
@@ -40,10 +48,19 @@ set number
 set tabstop=4 softtabstop=4 
 set expandtab
 set smartindent
-colorscheme desert
 set scrolloff=8
 
 let mapleader = " "
 nnoremap pv :Vex<CR>     
-nnoremap <leader>:so ~/.config/nvim/init.vim<CR> 
- 
+nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
+nnoremap <leader>new :enew<CR>
+nnoremap <leader>new :enew<CR>
+nnoremap <C-p> :GFiles<CR>
+nnoremap <leader>pf :Files<CR>
+nnoremap <leader>pb :Buffers<CR>
+nnoremap <leader>n :bnext<CR>
+nnoremap <leader>p :bprev<CR>
+nnoremap <leader>l :ls<CR>
+nnoremap <leader>q :bd<CR>
+nnoremap <leader>w :w<CR>:bnext<CR>
+
