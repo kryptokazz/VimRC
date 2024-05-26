@@ -64,3 +64,10 @@ nnoremap <leader>l :ls<CR>
 nnoremap <leader>q :bd<CR>
 nnoremap <leader>w :w<CR>:bnext<CR>
 
+noremap h <left>
+noremap t <down>
+noremap n <up>   
+noremap s <right>
+
+noremap l n
+noremap L N
