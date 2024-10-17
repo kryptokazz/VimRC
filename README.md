@@ -53,3 +53,6 @@ Once the configuration is in place, open Neovim and install the plugins with the
 ```bash
 nvim +PlugInstall +qall
 ```
+### 4. Enjoy! 😎
+
+You're all set! Enjoy your new Neovim setup with enhanced features, productivity boosters, and a beautiful color scheme. 💻
