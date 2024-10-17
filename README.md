@@ -30,8 +30,25 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-### 2. Create or Edit Your init.vim
+### 2. Create or Edit Your `init.vim`
+
+If the `~/.config/nvim` directory does not exist, you need to create it first:
 
 ```bash
+mkdir -p ~/.config/nvim
+
+touch ~/.config/nvim/init.vim
+
 nvim ~/.config/nvim/init.vim
+
+download or clone https://github.com/kryptokazz/nvim-init
+
+```
+
+### 3. Install the Plugins 🎉
+
+Once the configuration is in place, open Neovim and install the plugins with the following command:
+
+```bash
+nvim +PlugInstall +qall
 ```
