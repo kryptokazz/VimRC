@@ -36,14 +36,15 @@ If the `~/.config/nvim` directory does not exist, you need to create it first:
 
 ```bash
 mkdir -p ~/.config/nvim
-
-touch ~/.config/nvim/init.vim
-
-nvim ~/.config/nvim/init.vim
-
-download or clone https://github.com/kryptokazz/nvim-init
-
 ```
+
+```bash
+touch ~/.config/nvim/init.vim
+```
+```bash
+nvim ~/.config/nvim/init.vim
+```
+- [download nvim init](https://github.com/kryptokazz/nvim-init)
 
 ### 3. Install the Plugins 🎉
 
